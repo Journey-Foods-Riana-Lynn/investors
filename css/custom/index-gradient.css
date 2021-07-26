@@ -288,6 +288,7 @@ p {
   .dl-btn {
     display: block;
     margin: 0.5rem 0;
+    color: #892938;
   }
 
   .ios-mockup, .android-mockup {
