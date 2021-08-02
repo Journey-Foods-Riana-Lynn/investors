@@ -64,7 +64,7 @@ body {
     background: -webkit-linear-gradient(42deg, #f48d53, #f45353);
     background: -o-linear-gradient(42deg, #f48d53, #f45353);
     background: linear-gradient(48deg, #f48d53, #f45353);
-    color: #484245;
+    color: black;
     font-family: "Karla", sans-serif;
 }
 
@@ -111,8 +111,19 @@ body {
 .dl-btn {
     display: inline-block;
     margin-right: 0.25rem;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #f45353;
 }
-
+.dl-btn-invest {
+    display: inline-block;
+    margin-right: 0.25rem;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #f45353;
+}
 .dl-wrapper img {
     height: 48px;
 }
@@ -287,10 +298,19 @@ p {
 @media only screen and (max-width: 360px) {
   .dl-btn {
     display: block;
-    margin: 0.5rem 0;
+    margin: 25px;
+    padding: 15;
     color: #892938;
-    border-radius: 10px;
+    border-radius: 4px;
   }
+  @media only screen and (max-width: 360px) {
+    .dl-btn-invest {
+      display: block;
+      margin: 25px;
+      padding: 15;
+      color: #937845;
+      border-radius: 4px;
+    }
 
   .ios-mockup, .android-mockup {
     transform: scale(0.9);
