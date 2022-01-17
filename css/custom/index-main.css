@@ -114,7 +114,7 @@ body {
 .dl-btn-two {
     display: inline-block;
     margin-right: 0.25rem;
-    color: #395EFA;
+    background-color: #395EFA;
 }
 
 .dl-wrapper img {
@@ -296,6 +296,13 @@ p {
     
     @media only screen and (max-width: 360px) {
   .dl-btn {
+    display: block;
+    margin: 0.5rem 0;
+      color: #f45353;
+  }
+        
+            @media only screen and (max-width: 360px) {
+  .dl-btn-two {
     display: block;
     margin: 0.5rem 0;
       color: #395EFA;
