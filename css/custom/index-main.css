@@ -111,6 +111,12 @@ body {
     margin-right: 0.25rem;
 }
 
+.dl-btn-two {
+    display: inline-block;
+    margin-right: 0.25rem;
+    color: #395EFA;
+}
+
 .dl-wrapper img {
     height: 48px;
 }
@@ -286,6 +292,13 @@ p {
   .dl-btn {
     display: block;
     margin: 0.5rem 0;
+  }
+    
+    @media only screen and (max-width: 360px) {
+  .dl-btn {
+    display: block;
+    margin: 0.5rem 0;
+      color: #395EFA;
   }
 
   .ios-mockup, .android-mockup {
